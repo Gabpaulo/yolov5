@@ -1,0 +1,19 @@
+# Path to train/val image folders
+train: ../datasets/mydataset/images/train
+val:   ../datasets/mydataset/images/val
+
+# Number of classes
+nc: 9
+
+# Class names (index 0 -> 'alaxan', 1 -> 'Amoxicillin', …, 8 -> 'solmux')
+names: [
+  'alaxan',
+  'Amoxicillin',
+  'bioflu',
+  'biogesic',
+  'cetirizine',
+  'diatab',
+  'kremil-s',
+  'rexidol',
+  'solmux'
+]
