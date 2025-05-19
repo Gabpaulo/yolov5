@@ -3,17 +3,17 @@ train: ../datasets/mydataset/images/train
 val:   ../datasets/mydataset/images/val
 
 # Number of classes
-nc: 9
+nc: 10
 
-# Class names (index 0 -> 'alaxan', 1 -> 'Amoxicillin', …, 8 -> 'solmux')
-names: [
-  'alaxan',
-  'Amoxicillin',
-  'bioflu',
-  'biogesic',
-  'cetirizine',
-  'diatab',
-  'kremil-s',
-  'rexidol',
-  'solmux'
-]
+# Class names (index 0 → 'alaxan', …, index 11 → 'robitussin')
+names:
+  - alaxan
+  - amoxicillin
+  - bioflu
+  - biogesic
+  - centrum
+  - diatab
+  - kremil-s
+  - neozep
+  - rexidol
+  - robitussin
